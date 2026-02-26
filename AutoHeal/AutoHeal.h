@@ -11,6 +11,11 @@ public:
     AutoHeal(QWidget *parent = nullptr);
     ~AutoHeal();
 
+protected:
+    
+
+private slots:
+    
 private:
     Ui::AutoHealClass ui;
 };

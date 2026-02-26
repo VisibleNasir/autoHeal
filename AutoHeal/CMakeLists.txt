@@ -21,6 +21,13 @@ set(PROJECT_SOURCES
     AutoHeal.h
     AutoHeal.cpp
     AutoHeal.rc
+
+    QtWidgetsClass.h
+    QtWidgetsClass.cpp
+    QtWidgetsClass.ui
+    ThemeManager.h
+    ThemeManager.cpp
+    ThemeManager.ui
 )
 
 qt_add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
